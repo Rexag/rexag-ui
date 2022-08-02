@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "pnpm -C play dev"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +13,10 @@
   "devDependencies": {
     "typescript": "^4.7.4",
     "vue": "^3.2.37"
+  },
+  "dependencies": {
+    "@rexag/components": "workspace:*",
+    "@rexag/theme-chalk": "workspace:*",
+    "@rexag/utils": "workspace:*"
   }
 }
