@@ -53,7 +53,7 @@ function createBEM(prefixName: string) {
   };
 }
 
-export function createNamespace(name: string) {
+export function useNamespace(name: string) {
   const prefixName = `reg-${name}`;
   return createBEM(prefixName);
 }

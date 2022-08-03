@@ -1,22 +1,31 @@
 {
+  "version": "1.0.0",
   "name": "rexag-ui",
   "private": true,
-  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "pnpm -C play dev"
+    "dev": "pnpm -C play dev",
+    "doc:dev": "pnpm -C docs dev"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "typescript": "^4.7.4",
-    "vue": "^3.2.37"
-  },
   "dependencies": {
     "@rexag/components": "workspace:*",
     "@rexag/theme-chalk": "workspace:*",
-    "@rexag/utils": "workspace:*"
+    "@rexag/utils": "workspace:*",
+    "typescript": "^4.6.4",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.32.0",
+    "@typescript-eslint/parser": "^5.32.0",
+    "@vitejs/plugin-vue-jsx": "2.0.0",
+    "@vue/eslint-config-typescript": "^11.0.0",
+    "eslint": "^8.21.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "sass": "^1.54.0",
+    "unplugin-vue-define-options": "^0.7.1"
   }
 }
